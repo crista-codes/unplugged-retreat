@@ -143,6 +143,14 @@ h2 {
    font-style: normal;
   }
 
+  img {
+    width: 100%;
+   }
+    
+   figure {
+    margin: 0;
+   }
+
 .content-wrapper {
         width: 90%;
         margin: 50px 0;
@@ -185,12 +193,19 @@ header nav {
         align-items: center;
         flex-flow: row wrap;
         width: 60%;
+        font-size: 1.125em;
+        font-weight: 700;
+        text-transform: uppercase;
 }
 
 header nav ul {
         display: flex;
         justify-content: space-around;
         width: 100%;
+  }
+
+  header nav ul li {
+    font-size: 1.125em;
   }
 
   footer {
@@ -231,9 +246,13 @@ header nav ul {
 /* Hero Area */
 
 .hero-area {
-        display: flex;
-        justify-content: center;
-        flex-flow: row wrap;
+    background-image: url(../img/jake-melara-30679-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
 }
 
 .hero-area h1 {
@@ -282,9 +301,12 @@ aside .form{
 /* Features */
 
 .features {
-        display: flex;
-        justify-content: center;
-        flex-flow: row wrap;
+    background-image: url(../img/rawpixel-800820-unsplash1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
   }
   
   .features h2 {
@@ -563,8 +585,9 @@ aside .form{
         width: 85%;
       }
 
-      .reviews article div {
-            width: 49%;
+      .reviews article div,
+      .reviews article figure {
+        width: 49%;
       }
     
       .reviews h3 {
@@ -607,10 +630,10 @@ aside .form{
      ========================================================================== */
   
     .mission-content {
-         display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding-top: 20px
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px
       }
     
       .mission-content p {
@@ -749,7 +772,7 @@ aside .form{
       font-size: 1.125em;
       line-height: 1;
   }
-  
+
 }
 
 
